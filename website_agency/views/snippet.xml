@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+
+        <template id="blog_mega_menu" name="Blog Mega Menu">
+            <section>
+                <style>
+                    a{
+                    color: #677788;
+                    }
+                </style>
+                <div class="container">
+                    <div class="col-md-12 col-sm-12 col-12" style="border-bottom: 2px solid #f1f1f1;">
+                        <p>
+                            <a href="#">
+                                Journal
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Metro
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Newsroom
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-12 pt16">
+                        <p>
+                            <a href="#">
+                                Blog Profile
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Single Article
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="langing_mega_menu" name="Landing Mega Menu">
+            <section>
+                <style>
+                    a{
+                    color: #677788;
+                    }
+                </style>
+                <div class="container">
+                    <div class="col-md-12 col-sm-12 col-12" style="display: inherit;">
+                        <div class="col-md-6 col-sm-6 text-center"
+                             style="background-image: url(/website_agency/static/src/img/750x750/img1.jpg);">
+                            <h1 class="text-white font-weight-bold pt128">Branding Works</h1>
+                            <p class="text-white">
+                                Experience a level of our quality in both design &amp; customization works.
+                            </p>
+                            <div>
+                                <a class="btn btn-primary btn-sm transition-3d-hover"
+                                   href="#">
+                                    Learn More
+                                    <i class="fas fa-angle-right fa-sm ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 pl-4">
+                            <div class="col-md-12 col-sm-12" style="display: inline-flex;">
+                                <div class="col-md-6 col-sm-6">
+                                    <p class="text-black font-weight-bold">
+                                        <a href="#">
+                                            Classic
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Agency
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Analytics
+                                            <span class="badge badge-primary badge-pill ml-2">
+                                                Hot
+                                            </span>
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Studio
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Marketing
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Advertisement
+                                            <span class="badge badge-primary badge-pill ml-2">
+                                                Hot
+                                            </span>
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Consulting
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Portfolio
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Solftware
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Bussiness
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <p class="text-black font-weight-bold">
+                                        <a href="#">
+                                            App
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            UI Kit
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            SaaS
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Workflow
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Payment
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="#">
+                                            Tool
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="page_mega_menu" name="Pages Mega Menu">
+            <section>
+                <style>
+                    a{
+                    color: #677788;
+                    }
+                </style>
+                <div class="container">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <p>
+                            <a href="#">
+                                Account
+                                <span class="badge badge-primary badge-pill ml-2">
+                                    Hot
+                                </span>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Company
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Portfolio
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Login
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Signup
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Contacts
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Utilities
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Speciality
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="demo_mega_menu" name="Demo Mega Menu">
+            <section>
+                <style>
+                    a{
+                    color: #677788;
+                    }
+                </style>
+                <div class="container">
+                    <div class="col-md-12 col-sm-12 col-12" style="display:inherit">
+                        <div class="col-md-8 col-sm-8">
+                            <div>
+                                <div class="col-md-12 col-sm-12 col-12 row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="col-md-12 col-sm-12 col-12"
+                                             style="display:inline-flex;border-bottom: 1px solid #f1f1f1;border-right:1px solid #f1f1f1;">
+                                            <div class="col-md-3 col-sm-3">
+                                                <img class="navbar-promo-icon"
+                                                     src="/website_agency/static/src/svg/icons/icon-67.svg"
+                                                     alt="SVG"/>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9">
+                                                <p class="text-black font-weight-bold mb-0">
+                                                    <a href="#">
+                                                        Course
+                                                        <span class="badge badge-success badge-pill ml-1">
+                                                            New
+                                                        </span>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    <a href="#">
+                                                        Learn
+                                                        On-demand
+                                                        demo
+                                                    </a>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="col-md-12 col-sm-12 col-12"
+                                             style="display:inline-flex;border-bottom: 1px solid #f1f1f1;border-right:1px solid #f1f1f1;">
+                                            <div class="col-md-3 col-sm-3">
+                                                <img class="navbar-promo-icon"
+                                                     src="/website_agency/static/src/svg/icons/icon-67.svg"
+                                                     alt="SVG"/>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9">
+                                                <p class="text-black font-weight-bold mb-0">
+                                                    <a href="#">
+                                                        Course
+                                                        <span class="badge badge-success badge-pill ml-1">
+                                                            New
+                                                        </span>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    <a href="#">
+                                                        Learn
+                                                        On-demand
+                                                        demo
+                                                    </a>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-md-12 col-sm-12 col-12 pt16 row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="col-md-12 col-sm-12 col-12"
+                                             style="display:inline-flex;border-bottom: 1px solid #f1f1f1;border-right:1px solid #f1f1f1;">
+                                            <div class="col-md-3 col-sm-3">
+                                                <img class="navbar-promo-icon"
+                                                     src="/website_agency/static/src/svg/icons/icon-67.svg"
+                                                     alt="SVG"/>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9">
+                                                <p class="text-black font-weight-bold mb-0">
+                                                    <a href="#">
+                                                        Course
+                                                        <span class="badge badge-success badge-pill ml-1">
+                                                            New
+                                                        </span>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    <a href="#">
+                                                        Learn
+                                                        On-demand
+                                                        demo
+                                                    </a>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="col-md-12 col-sm-12 col-12"
+                                             style="display:inline-flex;border-bottom: 1px solid #f1f1f1;border-right:1px solid #f1f1f1;">
+                                            <div class="col-md-3 col-sm-3">
+                                                <img class="navbar-promo-icon"
+                                                     src="/website_agency/static/src/svg/icons/icon-67.svg"
+                                                     alt="SVG"/>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9">
+                                                <p class="text-black font-weight-bold mb-0">
+                                                    <a href="#">
+                                                        Course
+                                                        <span class="badge badge-success badge-pill ml-1">
+                                                            New
+                                                        </span>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    <a href="#">
+                                                        Learn
+                                                        On-demand
+                                                        demo
+                                                    </a>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-md-12 col-sm-12 col-12 pt16 row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="col-md-12 col-sm-12 col-12"
+                                             style="display:inline-flex;border-right:1px solid #f1f1f1;">
+                                            <div class="col-md-3 col-sm-3">
+                                                <img class="navbar-promo-icon"
+                                                     src="/website_agency/static/src/svg/icons/icon-67.svg"
+                                                     alt="SVG"/>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9">
+                                                <p class="text-black font-weight-bold mb-0">
+                                                    <a href="#">
+                                                        Course
+                                                        <span class="badge badge-success badge-pill ml-1">
+                                                            New
+                                                        </span>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    <a href="#">
+                                                        Learn
+                                                        On-demand
+                                                        demo
+                                                    </a>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="col-md-12 col-sm-12 col-12"
+                                             style="display:inline-flex;border-right:1px solid #f1f1f1;">
+                                            <div class="col-md-3 col-sm-3">
+                                                <img class="navbar-promo-icon"
+                                                     src="/website_agency/static/src/svg/icons/icon-67.svg"
+                                                     alt="SVG"/>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9">
+                                                <p class="text-black font-weight-bold mb-0">
+                                                    <a href="#">
+                                                        Course
+                                                        <span class="badge badge-success badge-pill ml-1">
+                                                            New
+                                                        </span>
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    <a href="#">
+                                                        Learn
+                                                        On-demand
+                                                        demo
+                                                    </a>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <a href="#">
+                                <img class="img-fluid rounded mb-3"
+                                     src="/website_agency/static/src/img/380x227/img1.jpg"
+                                     alt="Image Description"/>
+                            </a>
+                            <p class="text-center">
+                                <span class="font-size-1">
+                                    Front makes you
+                                    look at things
+                                    from a
+                                    different
+                                    perspectives.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+<!--        <template id="docs_mega_menu" name="Docs Mega Menu">-->
+<!--            <section>-->
+<!--                <style>-->
+<!--                    a{-->
+<!--                    color: #677788;-->
+<!--                    }-->
+<!--                </style>-->
+<!--                <div class="container">-->
+<!--                    <div class="col-md-12 col-sm-12 col-12" style="display:inherit">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-12 col-sm-12 col-12"-->
+<!--                                 style="display:inline-flex;">-->
+<!--                                <div class="col-md-3 col-sm-3">-->
+<!--                                    <img class="navbar-promo-icon"-->
+<!--                                         src="/website_agency/static/src/svg/icons/icon-67.svg"-->
+<!--                                         alt="SVG"/>-->
+<!--                                </div>-->
+<!--                                <div class="col-md-9 col-sm-9">-->
+<!--                                    <p class="text-black font-weight-bold mb-0">-->
+<!--                                        <a href="#">-->
+<!--                                            Documentation-->
+<!--                                            <span class="badge badge-primary badge-pill ml-1">-->
+<!--                                                v3.2-->
+<!--                                            </span>-->
+<!--                                        </a>-->
+<!--                                    </p>-->
+<!--                                    <p>-->
+<!--                                        <a href="#">-->
+<!--                                            Learn-->
+<!--                                            On-demand-->
+<!--                                            demo-->
+<!--                                        </a>-->
+<!--                                    </p>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-md-12 col-sm-12 col-12 pt8"-->
+<!--                                 style="display:inline-flex;">-->
+<!--                                <div class="col-md-3 col-sm-3">-->
+<!--                                    <img class="navbar-promo-icon"-->
+<!--                                         src="/website_agency/static/src/svg/icons/icon-67.svg"-->
+<!--                                         alt="SVG"/>-->
+<!--                                </div>-->
+<!--                                <div class="col-md-9 col-sm-9">-->
+<!--                                    <p class="text-black font-weight-bold mb-0">-->
+<!--                                        <a href="#">-->
+<!--                                            Documentation-->
+<!--                                            <span class="badge badge-primary badge-pill ml-1">-->
+<!--                                                v3.2-->
+<!--                                            </span>-->
+<!--                                        </a>-->
+<!--                                    </p>-->
+<!--                                    <p>-->
+<!--                                        <a href="#">-->
+<!--                                            Learn-->
+<!--                                            On-demand-->
+<!--                                            demo-->
+<!--                                        </a>-->
+<!--                                    </p>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-md-12 col-sm-12 col-12 pt8">-->
+<!--                                <p class="mb-0">-->
+<!--                                    <a href="#" style="font-size: 14px;">-->
+<!--                                        Check what's new-->
+<!--                                    </a>-->
+<!--                                </p>-->
+<!--                                <p class="mb-0" style="color:#377dff;">-->
+<!--                                    <a href="#" style="font-size: 14px;">-->
+<!--                                        Changelog-->
+<!--                                    </a>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                            <div class="col-md-12 col-sm-12 col-12 pt8">-->
+<!--                                <p class="mb-0">-->
+<!--                                    <a href="#" style="font-size: 14px;">-->
+<!--                                        Check what's new-->
+<!--                                    </a>-->
+<!--                                </p>-->
+<!--                                <p class="mb-0" style="color:#377dff;">-->
+<!--                                    <a href="#" style="font-size: 14px;">-->
+<!--                                        Changelog-->
+<!--                                    </a>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="col-md-12 col-sm-12 col-12 pt16 pb16" style="display:inherit;">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-md-6 col-sm-6" style="border-right:1px solid #f1f1f1;">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <p class="mb-0">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <a href="#" style="font-size: 14px;">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        Check what's new&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </p>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <p class="mb-0" style="color:#377dff;">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <a href="#" style="font-size: 14px;">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        Changelog&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </p>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="col-md-6 col-sm-6">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <p class="mb-0">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <a href="#" style="font-size: 14px;">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        Check what's new&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </p>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <p class="mb-0" style="color:#377dff;">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <a href="#">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        Changelog&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </a>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </p>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+<!--            </section>-->
+<!--        </template>-->
+
+
+        <template id="triangle_slider" inherit_id="website.snippets" name="Home Slider">
+            <xpath expr="//div[@id='snippet_content']" position="after">
+                <div id="snippet_triangle" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-caret-right"/>New: Mega Snippets
+                    </div>
+                    <div class="o_panel_body">
+                        <t t-snippet="website_agency.blog_mega_menu"/>
+                        <t t-snippet="website_agency.langing_mega_menu"/>
+                        <t t-snippet="website_agency.page_mega_menu"/>
+                        <t t-snippet="website_agency.demo_mega_menu"/>
+<!--                        <t t-snippet="website_agency.docs_mega_menu"/>-->
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
